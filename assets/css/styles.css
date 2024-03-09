@@ -22,7 +22,7 @@ html, button, input, select, textarea {
 #logo-img_2 {
 	margin-top: 150px; /* Adjust this value to move the image down */
     width: 300px; /* Adjust this value as needed */
-	margin-left: 950px;
+	margin-left: 50%;
     height: auto; /* Maintain aspect ratio */
 }
 .col-lg-4 img {
@@ -31,15 +31,16 @@ html, button, input, select, textarea {
     display: block; /* Ensures the image is centered horizontally */
     margin: 0 auto; /* Centers the image horizontally */
     max-height: 150px; /* Adjust the maximum height as needed */
+	margin-bottom: 10%; /* Adjust this value as needed */
 }
 #header_2 {
     margin-left: 100px; /* Adjust this value as needed */
 }
 
 .circular-image {
-	margin-left: 300px; /* Adjust this value as needed */
+	margin-left: 30%; /* Adjust this value as needed */
 	margin-top: 0px; /* Adjust this value as needed */
-    width: 500px; /* Adjust the width and height to your preference */
+    width: 50%; /* Adjust the width and height to your preference */
     height: 500px;
     overflow: hidden;
     border-radius: 100%; /* Creates a circular shape */
@@ -82,14 +83,14 @@ html, button, input, select, textarea {
 	color: #ffffff;
 	font-size: 70px;
 	font-weight: 400;
-    margin-left: 1000px; /* Adjust this value as needed */
+    margin-left: 50%; /* Adjust this value as needed */
 	letter-spacing: 3px;
 }
 #headerwrap_2 h2 {
 	color: #ffffff;
 	font-size: 30px;
 	font-weight: 400;
-    margin-left: 1000px; /* Adjust this value as needed */
+    margin-left: 50%; /* Adjust this value as needed */
 	letter-spacing: 3px;
 	overflow-wrap: break-word; /* This property allows long words to break and wrap onto the next line */
 }
@@ -97,7 +98,7 @@ html, button, input, select, textarea {
 	color: #fff;
 	font-size: 40px;
 	font-weight: 300;
-    margin-left: 1000px; /* Adjust this value as needed */
+    margin-left: 50%; /* Adjust this value as needed */
 	letter-spacing: 1px;
 	line-height: 1; /* Adjust this value as needed */
 }
@@ -114,7 +115,7 @@ html, button, input, select, textarea {
 	font-size: 20px;
 	margin: 50px 50px;
 	background-color: #8ca87c;
-	margin-left: 1000px; /* Adjust this value as needed */
+	margin-left: 50%; /* Adjust this value as needed */
 	color: #8ee023;
 	border-radius: 0;
 	color: #ffffff;
@@ -390,14 +391,14 @@ a:before, a:after {
 	color: #ffffff;
 	font-size: 70px;
 	font-weight: 400;
-    margin-left: 1000px; /* Adjust this value as needed */
+    margin-left: 50%; /* Adjust this value as needed */
 	letter-spacing: 3px;
 }
 #headerwrap p {
 	color: #fff;
 	font-size: 40px;
 	font-weight: 300;
-    margin-left: 1000px; /* Adjust this value as needed */
+    margin-left: 50%; /* Adjust this value as needed */
 	letter-spacing: 1px;
 	line-height: 1; /* Adjust this value as needed */
 }
@@ -414,7 +415,7 @@ a:before, a:after {
 	font-size: 20px;
 	margin: 50px 50px;
 	background-color: #8ca87c;
-	margin-left: 1000px; /* Adjust this value as needed */
+	margin-left: 50%; /* Adjust this value as needed */
 	color: #8ee023;
 	border-radius: 0;
 	color: #ffffff;

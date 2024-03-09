@@ -43,8 +43,8 @@ html, button, input, select, textarea {
 .circular-image {
 	margin-left: 0px; /* Adjust this value as needed */
 	margin-top: -50px; /* Adjust this value as needed */
-    width: 335px; /* Adjust the width and height to your preference */
-    height: 335px;
+    width: 100%; /* Adjust the width and height to your preference */
+    height: 100%;
     overflow: hidden;
     border-radius: 100%; /* Creates a circular shape */
     display: flex;
