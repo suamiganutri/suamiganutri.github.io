@@ -90,7 +90,7 @@ html, button, input, select, textarea {
 	font-size: 30px;
 	font-weight: 400;
     margin-left: 1000px; /* Adjust this value as needed */
-	    margin-bottom: 200px;
+	    margin-bottom: 100px;
 	letter-spacing: 3px;
 	overflow-wrap: break-word; /* This property allows long words to break and wrap onto the next line */
 }
