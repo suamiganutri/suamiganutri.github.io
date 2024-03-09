@@ -4,14 +4,33 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
-<meta name="author" content="webthemez">
+<meta name="author" content="gabriela">
 <title>Coffee Shop Free HTML Website Template | webthemez</title>
 
 <!-- Bootstrap core CSS -->
 <link href="assets/css/bootstrap.css" rel="stylesheet">
+<link id="desktop-styles" href="assets/css/styles.css" rel="stylesheet">
+<link id="mobile-styles" href="assets/css/styles_mobile.css" rel="stylesheet">
 
 <!-- Custom CSS -->
-<link href="assets/css/styles.css" rel="stylesheet">
+<!-- Link desktop and mobile CSS files conditionally -->
+<script>
+  // JavaScript code to detect mobile devices and load appropriate CSS file
+  window.onload = function() {
+        var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        var desktopStyles = document.getElementById('desktop-styles');
+        var mobileStyles = document.getElementById('mobile-styles');
+
+        if (isMobile) {
+            // Remove desktop styles and keep mobile styles
+            desktopStyles.parentNode.removeChild(desktopStyles);
+        } else {
+            // Remove mobile styles and keep desktop styles
+            mobileStyles.parentNode.removeChild(mobileStyles);
+        }
+    };
+</script>
+
 <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 <link href="assets/css/animate-custom.css" rel="stylesheet"> 
 <script src="assets/js/jquery.min.js"></script>
@@ -58,8 +77,8 @@
  <div class="tb-cell text-center" id="header_2">
   <img id="logo-img_2" src="assets/img/RS logo elegante minimalista preto branco e verde musgo-Photoroom.png-Photoroom.png" alt="Logo">
   <h1>Alimentação saudável</h1>
-    <p>Tenha uma alimentação equilibrada de maneira simples e acessível</p>
-    <a href="#contact" class="smoothScroll btn btn-lg">Quero agendar uma consulta</a> 
+    <p>Tenha uma alimentação<br> equilibrada de maneira<br> simples e acessível</p>
+    <a href="https://api.whatsapp.com/send?phone=5521965814103&text=Ol%C3%A1!%20Tudo%20bem?%20Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20consulta!" class="btn btn-lg">Agendar uma consulta</a> 
 	</div>
 	</header>
 </div>
@@ -74,10 +93,8 @@
             <img class="img-responsive" src="assets/img/gabriela/g_4.jpg" alt="Gabriela's Image">
         </div>
       </div>
-      <div class="content">
         <h1>Quem sou eu?</h1>
-        <h2>Olá, me chamo Gabriela Figueiredo!<br><br> Sou Nutricionista e quero te ajudar<br> a alcançar uma alimentação saudável<br> através de hábitos que se adequem<br> a sua rotina. <br><br> O meu propósito é te guiar até os seus<br> objetivos de maneira simples e acessível. </h2>
-    </div>
+        <h2>Olá, me chamo Gabriela Figueiredo!<br><br> Sou Nutricionista e quero te ajudar a alcançar uma alimentação saudável através de hábitos que se adequem a sua rotina. <br><br> O meu propósito é te guiar até os seus objetivos de maneira simples e acessível. </h2>
 </div>
 </div>
 
@@ -119,7 +136,7 @@
       <div class="col-md-7">
 	  <h2>Por favor entre em contato!</h2>
         <h3>No caso de qualquer pergunta ou caso deseje agendar uma consulta.</h3>
-        <form id="contact" method="post" class="form" role="form">
+        <form id="contact" action="https://formspree.io/f/mbjnkyar" method="POST" class="form" role="form">
           <div class="row">
             <div class="col-md-12 form-group">
               <input class="form-control" id="name" name="name" placeholder="Nome" type="text" required />

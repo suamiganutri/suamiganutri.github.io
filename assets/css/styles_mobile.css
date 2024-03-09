@@ -15,14 +15,15 @@ html, button, input, select, textarea {
 }
 
 #logo-img {
-    width: 400px; /* Adjust this value as needed */
+	margin-top: 5px; /* Adjust this value to move the image down */
+    width: 300px; /* Adjust this value as needed */
     height: auto; /* Maintain aspect ratio */
 }
 
 #logo-img_2 {
 	margin-top: 150px; /* Adjust this value to move the image down */
     width: 300px; /* Adjust this value as needed */
-	margin-left: 950px;
+	margin-left: 0px;
     height: auto; /* Maintain aspect ratio */
 }
 .col-lg-4 img {
@@ -30,6 +31,9 @@ html, button, input, select, textarea {
     height: auto; /* Maintains the aspect ratio */
     display: block; /* Ensures the image is centered horizontally */
     margin: 0 auto; /* Centers the image horizontally */
+	margin-left: 40px; /* Adjust this value as needed */
+	margin-bottom: 35px; /* Adjust this value as needed */
+
     max-height: 150px; /* Adjust the maximum height as needed */
 }
 #header_2 {
@@ -37,10 +41,10 @@ html, button, input, select, textarea {
 }
 
 .circular-image {
-	margin-left: 300px; /* Adjust this value as needed */
-	margin-top: 0px; /* Adjust this value as needed */
-    width: 500px; /* Adjust the width and height to your preference */
-    height: 500px;
+	margin-left: 0px; /* Adjust this value as needed */
+	margin-top: -50px; /* Adjust this value as needed */
+    width: 335px; /* Adjust the width and height to your preference */
+    height: 335px;
     overflow: hidden;
     border-radius: 100%; /* Creates a circular shape */
     display: flex;
@@ -80,24 +84,26 @@ html, button, input, select, textarea {
 }	
 #headerwrap_2 h1 {
 	color: #ffffff;
-	font-size: 70px;
+	font-size: 50x;
 	font-weight: 400;
-    margin-left: 1000px; /* Adjust this value as needed */
+    margin-left: 20px;
+; /* Adjust this value as needed */
 	letter-spacing: 3px;
 }
 #headerwrap_2 h2 {
 	color: #ffffff;
-	font-size: 30px;
+	font-size: 18px;
 	font-weight: 400;
-    margin-left: 1000px; /* Adjust this value as needed */
+    margin-left: 20px;
+; /* Adjust this value as needed */
 	letter-spacing: 3px;
 	overflow-wrap: break-word; /* This property allows long words to break and wrap onto the next line */
 }
 #headerwrap_2 p {
-	color: #fff;
-	font-size: 40px;
+	color: #ffffff;
+	font-size: 38px;
 	font-weight: 300;
-    margin-left: 1000px; /* Adjust this value as needed */
+    margin-left: 0px; /* Adjust this value as needed */
 	letter-spacing: 1px;
 	line-height: 1; /* Adjust this value as needed */
 }
@@ -114,7 +120,7 @@ html, button, input, select, textarea {
 	font-size: 20px;
 	margin: 50px 50px;
 	background-color: #8ca87c;
-	margin-left: 1000px; /* Adjust this value as needed */
+	margin-left: -0px; /* Adjust this value as needed */
 	color: #8ee023;
 	border-radius: 0;
 	color: #ffffff;
@@ -186,7 +192,7 @@ color: #8ca87c;
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
 color: #fff;
 background-color: #8ca87c;
-border-radius: 15px 0px 15px 0px;
+border-radius: 0px 0px 0px 0px;
 }
 .navbar-inverse .navbar-toggle {
 border-color: #8ca87c;
@@ -231,11 +237,21 @@ text-align: center;
 }
 
 .col-md-5 {
-	margin-top: 110px;
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.col-md-7 {
+	margin-top: 10px;
+}
+
+.col-md-12 {
+	margin-left: 30px;
 }
 .row {
 	margin-right: 0px;
 	margin-left: -15px;
+	margin-bottom: -22px;
 }
 .modal-header {
 	background: #045001;
@@ -370,43 +386,43 @@ a:before, a:after {
 
 #headerwrap {
 	background: url(../img/food/f_4.jpg) no-repeat center top;
-	margin-top: -50px;
+	margin-top: -180px;
 	padding-top: 120px;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 1070px;
+	min-height: 600px;
 	width: 100%;
-	-webkit-background-size: 100%;
+	-webkit-background-size: 10%;
 	-moz-background-size: 100%;
-	-o-background-size: 100%;
-	background-size: 100%;
+	-o-background-size: 50%;
+	background-size: 50%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	padding-bottom: 100px;
 }
+
+
 #headerwrap h1 {
-	color: #ffffff;
 	font-size: 70px;
 	font-weight: 400;
-    margin-left: 1000px; /* Adjust this value as needed */
+    margin-left: 0px; /* Adjust this value as needed */
 	letter-spacing: 3px;
 }
 #headerwrap p {
-	color: #fff;
-	font-size: 40px;
-	font-weight: 300;
-    margin-left: 1000px; /* Adjust this value as needed */
-	letter-spacing: 1px;
-	line-height: 1; /* Adjust this value as needed */
+	font-size: 50x;
+	font-weight: 400;
+    margin-left: 20px;
+	letter-spacing: 3px;
+	
 }
 #headerwrap .icon {
-	color: #ffffff;
+	background-color: #8ca87c;
 	margin-top: 115px;
 	padding-bottom: 30px;
 	letter-spacing: 8px;
-	font-size: 100px;
+	font-size: 90px;
 	font-weight: bold;
 }
 #headerwrap .btn {
@@ -414,7 +430,7 @@ a:before, a:after {
 	font-size: 20px;
 	margin: 50px 50px;
 	background-color: #8ca87c;
-	margin-left: 1000px; /* Adjust this value as needed */
+	margin-left: 40px; /* Adjust this value as needed */
 	color: #8ee023;
 	border-radius: 0;
 	color: #ffffff;
@@ -494,11 +510,15 @@ background:#fff;
 	background-color: #ffbf00;
 }
 #portfolio {
+	width: 100%;
+	font-size: 15px;
 	background: #F4F4F4;
 	padding: 100px 0;
 }
 #portfolio h2{
-	font-size: 60px;
+	margin-left: 20px;
+; /* Adjust this value as needed */
+	font-size: 38px;
 	font-weight: 400;
 	letter-spacing: 3px;
 }
@@ -507,24 +527,31 @@ background:#fff;
 	border: 0;
 }
 #contact {
+	width: 100%;
 	background:#ede9dd;
-	padding: 100px 0;
+	padding: 50px 0;
 	text-align: center;
 }
 
 #contact h1{
-	font-size: 60px;
+	margin-left: 20px;
+; /* Adjust this value as needed */
+	font-size: 45px;
 	font-weight: 400;
 	letter-spacing: 3px;
 }
 
 #contact h2{
-	font-size: 30px;
+	margin-left: 20px;
+; /* Adjust this value as needed */
+	font-size: 25px;
 	font-weight: 400;
 	letter-spacing: 3px;
 }
 #contact h3{
-	font-size: 20px;
+	margin-left: 20px;
+; /* Adjust this value as needed */
+	font-size: 18px;
 	font-weight: 400;
 	letter-spacing: 3px;
 }
@@ -542,7 +569,7 @@ background:#fff;
 	font-size: 20px;
 	margin: 50px 50px;
 	background-color: #8ca87c;
-	margin-left: 0px; /* Adjust this value as needed */
+	margin-left: 42px; /* Adjust this value as needed */
 	color: #8ee023;
 	border-radius: 0;
 	color: #ffffff;
@@ -760,7 +787,7 @@ body .header {
 }
 @media screen and (max-width:480px) {
 #headerwrap h1 {
-font-size: 34px;
+font-size: 40px;
 }
 #headerwrap p {
 margin-top:30px;
@@ -769,7 +796,6 @@ font-size: 20px;
 .navbar-nav{
 float: right !important;
 width: 100%;
-margin: 10px auto;
 }
 #team img{
 margin-top:30px;
