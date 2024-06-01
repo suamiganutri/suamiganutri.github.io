@@ -60,9 +60,25 @@ html, button, input, select, textarea {
 	margin-left: -2000px; /* Adjust this value as needed */
     padding: 180px 0px; /* Adjust as needed */
 }
+.ti-widget-container {
+	margin-top: 10%;
+	margin-left: 20%;
+	width: 60%; /* 40% of the viewport width */
+	max-width: 100%; /* Ensure it doesn't overflow */
+	height: 75vh; /* Full viewport height */
+	transform: scale(1.4); /* Adjust the scale value as needed */
+	transform-origin: center; /* Center the scaling */
+}
+.ti-widget-container h1{
+	font-size: 60px;
+	font-weight: 400;
+    margin-left: 0%; /* Adjust this value as needed */
+	letter-spacing: 3px;
+	text-align: center;
+}
 
 #headerwrap_2 {
-	background: url(../img/bg.png) no-repeat center top;
+	background: url(../img/bg.jpeg) no-repeat center top;
 	margin-top: -50px;
 	padding-top: 120px;
 	background-attachment: relative;
@@ -164,7 +180,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
 	line-height: 1.4;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Arial', sans-serif;
 }
 .logo a {
 margin: 0 auto; 
@@ -274,7 +290,7 @@ a img {
 }
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Raleway";
+	font-family: 'Arial', sans-serif;
 	font-weight: 200;
 	color: #333;
 }
@@ -389,7 +405,7 @@ a:before, a:after {
 }
 #headerwrap h1 {
 	color: #ffffff;
-	font-size: 70px;
+	font-size: 65px;
 	font-weight: 400;
     margin-left: 50%; /* Adjust this value as needed */
 	letter-spacing: 3px;
@@ -495,7 +511,7 @@ background:#fff;
 	background-color: #ffbf00;
 }
 #portfolio {
-	background: #F4F4F4;
+	background: #E9E4CE;
 	padding: 100px 0;
 }
 #portfolio h2{
@@ -508,7 +524,7 @@ background:#fff;
 	border: 0;
 }
 #contact {
-	background:#ede9dd;
+	background:#E9E4CE;
 	padding: 100px 0;
 	text-align: center;
 }
@@ -562,7 +578,7 @@ background:#fff;
 	text-align: center;
 }
 #greywrap .btn {
-	font-family: "Raleway";
+	font-family: 'Arial', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
 	margin: 0 25px;
