@@ -128,10 +128,12 @@ html, button, input, select, textarea {
 }
 #headerwrap_2 .btn {
 	font-weight: 500;
-	font-size: 20px;
-	margin: 50px 50px;
+	font-size: 35px;
+	margin: 0px 0px;
+	width: 15%;
+	height: 15%;
 	background-color: #8ca87c;
-	margin-left: 50%; /* Adjust this value as needed */
+	margin-left: 65%; /* Adjust this value as needed */
 	color: #8ee023;
 	border-radius: 0;
 	color: #ffffff;
